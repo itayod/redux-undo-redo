@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-controller="mainController as main">
+
+{{main.counter.present}} <button ng-click="main.increment()">+</button> <button ng-click="main.decrement()">-</button>
+<button ng-click="main.undo()">undo</button> <button ng-click="main.redo()">redo</button>
+<div id="devTools"></div>
+
+
+</body>
+</html>
